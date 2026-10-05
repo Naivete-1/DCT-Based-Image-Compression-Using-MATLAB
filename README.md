@@ -200,7 +200,7 @@ The measured performance was:
 PSNR:              36.92 dB
 Compression Ratio: 5.41:1
 ```
-
+![MATLAB DCT result - threshold 0.02](screenshots/low-threshold-compression.png)
 Only relatively small visual differences are introduced.
 
 ### High Threshold — t = 0.08
@@ -213,7 +213,7 @@ The measured performance was:
 PSNR:              28.11 dB
 Compression Ratio: 15.75:1
 ```
-
+![MATLAB DCT result - threshold 0.08](screenshots/high-threshold-compression.png)
 The reconstructed image shows more noticeable degradation and loss of high-frequency detail.
 
 ---
@@ -263,6 +263,17 @@ Higher compression
 This makes the threshold an important parameter when balancing storage efficiency against reconstructed image quality.
 
 ---
+## 💻 MATLAB Implementation
+
+The project implemented 2-D DCT image compression in MATLAB using different threshold values.
+
+### Threshold = 0.02
+
+![MATLAB DCT code - threshold 0.02](screenshots/matlab-code-threshold-0.02.png)
+
+### Threshold = 0.08
+
+![MATLAB DCT code - threshold 0.08](screenshots/matlab-code-threshold-0.08.png)
 
 ## 🛠️ Technologies Used
 
