@@ -7,7 +7,7 @@
 **Language:** MATLAB
 **Course:** Digital Signal Processing
 **Department:** Computer Engineering
-**University:** European University of Lefke
+
 
 ---
 
@@ -352,5 +352,4 @@ Possible improvements include:
 
 **Naivete Thandiwe Makobe**
 BSc Computer Engineering
-European University of Lefke
 Computer Engineering Department
